@@ -1,0 +1,38 @@
+#fizzbuzz{
+    width: 1000px;
+    height: 1000px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.inner-square{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-fizz{
+    background-color: #730707;
+}
+
+.bg-buzz{
+    background-color: #035725;
+}
+
+.bg-fizzbuzz{
+    background-color: #777f06;
+}
